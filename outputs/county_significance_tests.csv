@@ -1,0 +1,18 @@
+measure,source,group_1,est_1,moe_1,group_2,est_2,moe_2,difference,z,significant_90pct
+% male,S0201 2024 1-yr,Two races incl. Some Other Race,51.3,2.3,Excl. Some Other Race / 3+ races,50.5,3.1,0.8,0.34,No
+Median age (years),S0201 2024 1-yr,Two races incl. Some Other Race,34.2,2.7,Excl. Some Other Race / 3+ races,19.0,2.7,15.2,6.55,Yes
+% under 18,S0201 2024 1-yr,Two races incl. Some Other Race,26.2,2.5,Excl. Some Other Race / 3+ races,48.4,3.2,-22.2,-8.99,Yes
+% 65 and over,S0201 2024 1-yr,Two races incl. Some Other Race,9.1,1.8,Excl. Some Other Race / 3+ races,4.9,1.3,4.2,3.11,Yes
+% foreign-born,S0201 2024 1-yr,Two races incl. Some Other Race,47.4,5.3,Excl. Some Other Race / 3+ races,17.6,4.0,29.8,7.43,Yes
+% not a U.S. citizen (of total pop.),S0201 2024 1-yr,Two races incl. Some Other Race,26.0,5.4,Excl. Some Other Race / 3+ races,4.4,1.9,21.6,6.21,Yes
+% of foreign-born who are not citizens,S0201 2024 1-yr,Two races incl. Some Other Race,55.0,9.6,Excl. Some Other Race / 3+ races,24.9,9.3,30.0,3.69,Yes
+% of immigrants who arrived 2010 or later,S0201 2024 1-yr,Two races incl. Some Other Race,38.1,7.2,Excl. Some Other Race / 3+ races,44.2,9.5,-6.1,-0.84,No
+% speak a language other than English at home,S0201 2024 1-yr,Two races incl. Some Other Race,70.1,4.1,Excl. Some Other Race / 3+ races,30.1,5.4,40.0,9.7,Yes
+% speak English less than 'very well',S0201 2024 1-yr,Two races incl. Some Other Race,28.8,4.4,Excl. Some Other Race / 3+ races,5.7,1.4,23.1,8.23,Yes
+% with no health insurance,S0201 2024 1-yr,Two races incl. Some Other Race,17.1,4.6,Excl. Some Other Race / 3+ races,3.3,1.1,13.8,4.8,Yes
+% bachelor's degree or higher (25+),S0201 2024 1-yr,Two races incl. Some Other Race,43.2,4.5,Excl. Some Other Race / 3+ races,69.6,4.8,-26.4,-6.6,Yes
+Median household income ($),S0201 2024 1-yr,Two races incl. Some Other Race,140326.0,6744.0,Excl. Some Other Race / 3+ races,151417.0,15849.0,-11091.0,-1.06,No
+% foreign-born,B05002 2017-21 5-yr,"Two races, incl. Some Other Race",44.7,3.2,"Two races, excl. Some Other Race",13.1,1.7,31.6,14.3,Yes
+% foreign-born,B05002 2017-21 5-yr,White + Some Other Race,45.7,3.7,White + Asian,13.6,2.4,32.0,11.93,Yes
+% foreign-born,B05002 2017-21 5-yr,White + Asian,13.6,2.4,White + Black,12.0,3.4,1.6,0.62,No
+% of foreign-born who are not citizens,B05002 2017-21 5-yr,"Two races, incl. Some Other Race",50.3,7.1,"Two races, excl. Some Other Race",36.7,7.2,13.5,2.21,Yes

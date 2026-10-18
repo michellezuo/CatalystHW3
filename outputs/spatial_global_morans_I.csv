@@ -1,0 +1,16 @@
+variable,morans_I,expected_I,z_score,pseudo_p,interpretation
+% foreign-born,0.4219,-0.0037,12.0203,0.001,Moderate clustering
+% not a U.S. citizen,0.3886,-0.0037,11.2535,0.001,Moderate clustering
+% born in Asia,0.5101,-0.0037,14.3042,0.001,Strong clustering
+% born in Latin America,0.3658,-0.0037,10.1111,0.001,Moderate clustering
+% Hispanic/Latino,0.3604,-0.0037,10.0518,0.001,Moderate clustering
+% Asian (non-Hispanic),0.4946,-0.0037,14.1775,0.001,Moderate clustering
+% Black (non-Hispanic),0.4537,-0.0037,13.3872,0.001,Moderate clustering
+% White (non-Hispanic),0.4338,-0.0037,12.1503,0.001,Moderate clustering
+Median age (years),0.177,-0.0037,5.0985,0.001,Weak clustering
+% under 18,0.1945,-0.0037,5.6847,0.001,Weak clustering
+% 65 and over,0.1503,-0.0037,4.7642,0.001,Weak clustering
+% male,0.0345,-0.0037,1.0791,0.14,No significant pattern
+Vulnerability Index (1-5),0.4001,-0.0037,11.1788,0.001,Moderate clustering
+"OLS residuals, model 1",0.429,-0.0037,12.1363,0.001,Residuals clustered -> spatial model warranted
+"OLS residuals, model 2",0.1511,-0.0037,4.3406,0.001,Residuals clustered -> spatial model warranted

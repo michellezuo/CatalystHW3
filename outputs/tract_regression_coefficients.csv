@@ -1,0 +1,10 @@
+model,term,coef,std_err,p_value
+M1,const,0.9134,0.1024,0.0
+M1,pct_foreign_born,0.0514,0.0032,0.0
+M2,const,1.0082,0.1838,0.0
+M2,pct_noncitizen,0.0334,0.0047,0.0
+M2,pct_nh_asian,0.0084,0.0032,0.0099
+M2,pct_nh_black,0.034,0.0034,0.0
+M2,pct_hispanic,0.0397,0.0033,0.0
+M2,pct_under18,-0.0114,0.0049,0.022
+M2,pct_65plus,0.0155,0.004,0.0001

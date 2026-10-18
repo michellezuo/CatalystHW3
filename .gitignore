@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+desktop.ini
+.DS_Store
+# Census shapefile is re-downloaded by scripts/02_fetch_tract_data.py
+data/raw/cb_2021_51_tract_500k.zip

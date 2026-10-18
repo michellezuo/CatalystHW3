@@ -1,0 +1,67 @@
+MODEL 1: Vulnerability Index ~ % foreign-born
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             vuln_index   R-squared:                       0.497
+Model:                            OLS   Adj. R-squared:                  0.495
+Method:                 Least Squares   F-statistic:                     264.6
+Date:                Sun, 18 Oct 2026   Prob (F-statistic):           7.36e-42
+Time:                        14:28:01   Log-Likelihood:                -261.44
+No. Observations:                 270   AIC:                             526.9
+Df Residuals:                     268   BIC:                             534.1
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.9134      0.102      8.924      0.000       0.712       1.115
+pct_foreign_born     0.0514      0.003     16.267      0.000       0.045       0.058
+==============================================================================
+Omnibus:                        9.488   Durbin-Watson:                   1.995
+Prob(Omnibus):                  0.009   Jarque-Bera (JB):                9.667
+Skew:                           0.399   Prob(JB):                      0.00796
+Kurtosis:                       3.472   Cond. No.                         85.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+MODEL 2: Vulnerability Index ~ immigration + race/ethnicity + age
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             vuln_index   R-squared:                       0.774
+Model:                            OLS   Adj. R-squared:                  0.769
+Method:                 Least Squares   F-statistic:                     149.8
+Date:                Sun, 18 Oct 2026   Prob (F-statistic):           7.46e-82
+Time:                        14:28:01   Log-Likelihood:                -153.59
+No. Observations:                 270   AIC:                             321.2
+Df Residuals:                     263   BIC:                             346.4
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              1.0082      0.184      5.486      0.000       0.646       1.370
+pct_noncitizen     0.0334      0.005      7.052      0.000       0.024       0.043
+pct_nh_asian       0.0084      0.003      2.597      0.010       0.002       0.015
+pct_nh_black       0.0340      0.003      9.997      0.000       0.027       0.041
+pct_hispanic       0.0397      0.003     12.066      0.000       0.033       0.046
+pct_under18       -0.0114      0.005     -2.305      0.022      -0.021      -0.002
+pct_65plus         0.0155      0.004      3.890      0.000       0.008       0.023
+==============================================================================
+Omnibus:                        1.335   Durbin-Watson:                   2.088
+Prob(Omnibus):                  0.513   Jarque-Bera (JB):                1.123
+Skew:                           0.151   Prob(JB):                        0.570
+Kurtosis:                       3.090   Cond. No.                         285.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Variance inflation factors (model 2; < 5 is fine, > 10 is a problem):
+      variable  VIF
+pct_noncitizen 2.71
+  pct_nh_asian 1.78
+  pct_nh_black 1.20
+  pct_hispanic 2.47
+   pct_under18 1.27
+    pct_65plus 1.53
