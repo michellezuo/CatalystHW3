@@ -31,8 +31,3 @@ On data.census.gov, the race-group iterations (Two or More Races, Two races with
 | Census 2021 cartographic boundary file, Virginia census tracts (1:500k) | [cb_2021_51_tract_500k.zip](https://www2.census.gov/geo/tiger/GENZ2021/shp/cb_2021_51_tract_500k.zip) · [about cartographic boundary files](https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html) |
 
 The Census API (api.census.gov) now requires a key, so the script uses the bulk summary files instead. They contain the same ACS estimates.
-
-## Re-running
-
-Re-run everything: `bash run_all.sh`
-Packages: `pip install geopandas libpysal esda mapclassify matplotlib scipy statsmodels requests openpyxl`
